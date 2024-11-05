@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Abaikan semua konten dalam public/assets
+public/assets/*
+
+# Kecualikan folder frontend dan panel-admin
+!public/assets/frontend/
+!public/assets/panel-admin/
+
+# Abaikan semua file di dalam frontend dan panel-admin
+public/assets/frontend/*
+public/assets/panel-admin/*
+
+# Kecualikan folder kosong agar tetap ditrack
+!public/assets/frontend/.gitkeep
+!public/assets/panel-admin/.gitkeep
