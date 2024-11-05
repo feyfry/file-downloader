@@ -30,7 +30,7 @@ public/assets/*
 !public/assets/frontend/
 !public/assets/panel-admin/
 
-# Abaikan semua file di dalam frontend dan panel-admin
+# Abaikan semua file/isi di dalam frontend dan panel-admin
 public/assets/frontend/*
 public/assets/panel-admin/*
 
